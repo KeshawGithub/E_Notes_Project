@@ -1,0 +1,100 @@
+
+/* ------------NavBar CSS--------------- */
+.bg-custom {
+	background-color: #4C0E5C;
+}
+
+.navbar-brand {
+	margin-left: 20px;
+	margin-right: 40px;
+}
+
+.navbar .nav-item {
+	margin-right: 10px;
+}
+
+.navbar .nav-item .nav-link {
+	font-size: 17px;
+	color: white;
+	display: inline-block;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navbar .nav-item .nav-link::after {
+	content: '';
+	width: 0;
+	height: 3px;
+	background: #4C0E5C;
+	position: absolute;
+	left: 0;
+	bottom: 8px;
+	border-radius: 50px;
+	transition: 0.5s;
+}
+
+.navbar .nav-item .nav-link:hover::after {
+	width: 100%;
+}
+
+.bg-custom .nav-item .nav-link:hover {
+	background: white;
+	color: black;
+	border-radius: 8px;
+}
+
+/* -----------Body CSS------------- */
+.indexH1 {
+	padding-top: 200px;
+}
+
+.indexH1 .text {
+	color: white;
+}
+.back-img {
+	margin-top: -10px;
+	background: url("image/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	height: 95vh;
+}
+/* -----------Registration CSS------------- */
+.btn-custom{
+	background-color: 	  #4C0E5C;
+	border-radius:20px;
+	color:white;
+}
+.btn-custom:hover{
+	background-color:  #1f933c;
+	color:white;
+}
+.container-fluid.RegistrationBG {
+    height:87vh;
+    background-image: linear-gradient(to left top, #32094f, #4d1269, #6b1a84, #8c219e, #af27b7, #b227b9, #b627bb, #b927bd, #9d22a8, #821b93, #69157e, #510e69);
+    background-repeat: no-repeat;
+    background-size: cover;  /* Ensures the background image covers the entire area */
+    background-position: center;  /* Centers the background image */
+}
+/* ------------Footer CSS--------------- */
+
+ .footer{
+	padding-top:10px;
+	background-color:#4C0E5C;
+	color:white;
+}
+.row .left{
+	text-align:right;
+}
+.row .left p a{
+	text-decoration:none;
+	color:white;
+}
+.row .left p a:hover{
+ 	color:green;
+ 	font-size:20px;
+ 	transition: 1.0s;
+ 	
+ }
+
